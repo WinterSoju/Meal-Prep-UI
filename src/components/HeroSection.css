@@ -1,0 +1,93 @@
+.hero-image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    
+    object-fit: contain; 
+    background-size: cover;      /* scale & crop */
+    background-position: center;  /* keep main subject centered */
+    background-repeat: no-repeat;  
+}
+
+.hero-container h1{
+    color: #8FA27A;   
+    font-size: 100px;
+    margin-top: -30%;
+    text-align: center;
+    padding: 0 2rem;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.hero-container p{
+    color: #8FA27A;
+    font-size: 18px;
+    margin-top: 8px;
+    text-align: center;
+    max-width: 600px;
+    font-weight: 700;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    padding: 0 3rem;
+}
+
+.hero-btns {
+  margin-top: 32px;
+  padding: 0 3rem;
+}
+
+.btns {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.9rem 1.6rem;
+    border-radius: 8px;
+    border: 2px solid rgb(154, 183, 143);
+    background: rgb(154, 183, 143);
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 960px) {
+    .hero-container h1{
+        font-size: 60px;
+        margin-top: 150px;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-container h1{
+        font-size: 60px;
+        margin-top:-120%;
+        justify-content: flex-start;
+    }
+    
+    .hero-container p{
+        font-size: 18px;
+    }
+
+    .btn-mobile {
+        display: block;
+        text-decoration: none;
+    }
+
+    .btn{
+        width: 100%;
+    }
+}
