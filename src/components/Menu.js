@@ -15,7 +15,7 @@ export default function LabTabs() {
   };
 
   return (
-    <Box sx={{ width: '100%', typography: 'body1', py: 4, bgcolor: '#f6faef' }}>
+    <Box sx={{ width: '100%', typography: 'body1', py: 0, bgcolor: '#f6faef' }}>
       <Typography variant="h4" align="center" bgcolor= '#f6faef' sx={{ 
         mb: 4,
         fontWeight: '300',

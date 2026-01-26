@@ -1,6 +1,6 @@
 .testimonial {
   padding: 2rem 1rem;
-  background-color: #f6faef;
+  background-color: #dce2d1;
 }
 
 .testimonial .swiper {
@@ -67,7 +67,7 @@
 
 .testimonial-card__description {
   font-family: 'Inter', system-ui, sans-serif;
-  font-size: 24px;
+  font-size: 16px;
   margin-bottom: 1rem;
 }
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Testimonial.css';
 import TestimonialItem from './TestimonialItem';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -15,15 +15,16 @@ return (
     <section className="testimonial">
         <h1 className="testimonial-heading">WHAT OUR CUSTOMERS SAY</h1>
         <Swiper
-        modules={[Navigation, Scrollbar, A11y]}
-        spaceBetween={20}
+        modules={[Navigation, A11y, Autoplay]}
+        spaceBetween={5}
         slidesPerView={"auto"}
         navigation
         centeredSlidesBounds={true}
         pagination={{ clickable: true }}
-        scrollbar={{ draggable: true }}
+        autoplay={{ delay: 2000, disableOnInteraction: false }}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log('slide change')}
+       
         breakpoints={{
             1024: {  
                 slidesPerView: 3,  
@@ -34,13 +35,12 @@ return (
                 spaceBetween: 20,
             },
             0: {     
-                slidesPerView: "auto",
+                slidesPerView: 1,
                 spaceBetween: 10,
         },
   }}
         style={{ 
-                    backgroundColor: "#f5ffe7",
-                    
+                    backgroundColor: "#dce2d1",
                     fontSize: "20px",
                     fontFamily: "'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif", 
                     color: "#ffffff"
@@ -79,7 +79,7 @@ return (
         <SwiperSlide>
             <TestimonialItem
                 feedback="The customizable plans allowed me to find meals that fit my dietary needs perfectly."
-                authorImage="/author4.jpg"
+                authorImage="/customers/michaelbrown.jpg"
                 authorName="Michael Brown"
                 name="Michael Brown"
                 role="Athlete"
@@ -89,7 +89,7 @@ return (
         <SwiperSlide>
             <TestimonialItem
                 feedback="Fast delivery and fresh ingredients every time. This service has made my life so much easier!"
-                authorImage="/author5.jpg"
+                authorImage="/customers/sarahdavis.jpg"
                 authorName="Sarah Davis"
                 name="Sarah Davis"
                 role="Mom on the Go"

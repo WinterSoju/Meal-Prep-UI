@@ -51,17 +51,33 @@
     align-items: center;
     gap: 0.6rem;
     padding: 0.9rem 1.6rem;
-    border-radius: 8px;
     border: 2px solid rgb(154, 183, 143);
     background: rgb(154, 183, 143);
     color: #fff;
-    font-weight: 700;
     font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     font-size: 16px;
     cursor: pointer;
     transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
     text-decoration: none;
+    margin-right: 16px;
 }
+
+.btns2{
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.9rem 1.6rem;
+    border: 2px solid rgb(154, 183, 143);
+    background: rgb(154, 183, 143);
+    color: #fff;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
 
 @media screen and (max-width: 960px) {
     .hero-container h1{
