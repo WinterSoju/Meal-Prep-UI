@@ -13,7 +13,6 @@
     align-items: center;
     height: 100vh;
     width: 100%;
-    
     object-fit: contain; 
     background-size: cover;      /* scale & crop */
     background-position: center;  /* keep main subject centered */
@@ -21,7 +20,7 @@
 }
 
 .hero-container h1{
-    color: #8FA27A;   
+    color: linear-gradient(90deg, #AFC3A2, #C3B8A8);
     font-size: 100px;
     margin-top: -30%;
     text-align: center;
@@ -39,6 +38,7 @@
     font-weight: 700;
     font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     padding: 0 3rem;
+    font-weight: 400;
 }
 
 .hero-btns {
@@ -51,8 +51,8 @@
     align-items: center;
     gap: 0.6rem;
     padding: 0.9rem 1.6rem;
-    border: 2px solid rgb(154, 183, 143);
-    background: rgb(154, 183, 143);
+    border: #C6A15B;
+    background: #C6A15B;
     color: #fff;
     font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -67,8 +67,8 @@
     align-items: center;
     gap: 0.6rem;
     padding: 0.9rem 1.6rem;
-    border: 2px solid rgb(154, 183, 143);
-    background: rgb(154, 183, 143);
+    border: #86AA97;
+    background: #86AA97;
     color: #fff;
     font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     font-size: 16px;
@@ -89,21 +89,21 @@
 
 @media screen and (max-width: 768px) {
     .hero-container h1{
-        font-size: 60px;
-        margin-top:-120%;
+        font-size: 40px;
+        margin-top:-90%;
         justify-content: flex-start;
     }
     
     .hero-container p{
-        font-size: 18px;
+        font-size: 16px;
     }
 
-    .btn-mobile {
-        display: block;
-        text-decoration: none;
+    .hero-btns{
+        margin-top: 10px;
+        padding: 1px;
     }
 
-    .btn{
-        width: 100%;
+    .btns, .btns2{
+        font-size: 10px;
     }
 }

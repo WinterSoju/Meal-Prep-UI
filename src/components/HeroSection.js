@@ -15,14 +15,14 @@ function HeroSection() {
             buttonStyle='btn--outline' 
             buttonSize='btn--large'
             >
-                Browse Recipe
+                BROWSE RECIPE
             </button>
             <button 
             className='btns2'
             buttonStyle='btn--outline' 
             buttonSize='btn--large'
             >
-                Explore Menu
+                EXPLORE MENU
             </button>
         </div>
     </div>
