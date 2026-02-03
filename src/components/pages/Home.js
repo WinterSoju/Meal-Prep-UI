@@ -5,6 +5,7 @@ import Cards from '../Cards';
 import LabTabs from '../Menu';
 import WhyUs from '../WhyUs';
 import Testimonial from '../testimonial';
+import HowItWorks from '../HowItWorks';
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
         <Cards />
         <LabTabs />
         <Testimonial />
+        <HowItWorks />
       </div>
   );
 }
