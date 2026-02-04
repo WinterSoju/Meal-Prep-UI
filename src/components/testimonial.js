@@ -16,7 +16,7 @@ return (
         <h1 className="testimonial-heading">WHAT OUR CUSTOMERS SAY</h1>
         <Swiper
         modules={[Navigation, A11y, Autoplay]}
-        spaceBetween={5}
+        spaceBetween={3}
         slidesPerView={"auto"}
         navigation
         centeredSlidesBounds={true}
