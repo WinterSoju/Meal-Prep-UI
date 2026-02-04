@@ -6,6 +6,7 @@
 .menu-cards h1 {
   text-align: center;
   color: white;
+  font-size: large;
 }
 
 /* Scoped rules for MenuCardItem structure */
