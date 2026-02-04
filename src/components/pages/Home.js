@@ -6,6 +6,7 @@ import LabTabs from '../Menu';
 import WhyUs from '../WhyUs';
 import Testimonial from '../testimonial';
 import HowItWorks from '../HowItWorks';
+import Footer from '../Footer';
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
         <LabTabs />
         <Testimonial />
         <HowItWorks />
+        <Footer />
       </div>
   );
 }
