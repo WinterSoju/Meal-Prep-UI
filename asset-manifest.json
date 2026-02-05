@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Meal-Prep-UI/static/css/main.62e1598c.css",
+    "main.js": "/Meal-Prep-UI/static/js/main.b278cb14.js",
+    "static/media/2.jpg": "/Meal-Prep-UI/static/media/2.20cd0599f837949b9050.jpg",
+    "index.html": "/Meal-Prep-UI/index.html",
+    "main.62e1598c.css.map": "/Meal-Prep-UI/static/css/main.62e1598c.css.map",
+    "main.b278cb14.js.map": "/Meal-Prep-UI/static/js/main.b278cb14.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62e1598c.css",
+    "static/js/main.b278cb14.js"
+  ]
+}
