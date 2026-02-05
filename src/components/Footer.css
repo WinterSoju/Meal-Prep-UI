@@ -1,5 +1,5 @@
 .section_padding{
-    padding: 4rem 4rem;
+    padding: 3rem 2rem;
 }
 
 .footer{
@@ -19,7 +19,7 @@
     flex-wrap: wrap;
     width: 100%;
     text-align: left;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     border-bottom: 1px solid #0f0f0e;
 }
 
@@ -37,7 +37,6 @@ a{
     text-decoration: none;
     
 }
-
 
 .sb_footer-links_div h4{
     font-size: 24px;
@@ -86,6 +85,15 @@ hr{
     line-height: 18px;
     color: rgb(255, 255, 255);
     font-weight: 600;
+    display: flex;
+     gap: 20px;
+}
+
+.sb_footer-copyright .links{
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: 5;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
 .newsletter{
@@ -120,11 +128,73 @@ input[type="button"]{
   cursor: pointer;
 }
 
+.sb_footer-socialmedia{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.sb_footer-socialmedia p{
+    color: white;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.fb-icon{
+    color:#ffffff;
+    transition: color 0.2s ease;
+}
+
+.fb-icon:hover {
+  color: #1877f2; /* Facebook blue */
+}
+
+.ig-icon{
+    color:#ffffff;
+    transition: color 0.2s ease;
+}
+
+.ig-icon:hover {
+    color: #ffffff; /* default color */
+    transition: color 0.2s ease;
+}
+
+.ig-icon:hover path {
+  fill: url(#igGrad);
+}
+
+.x-icon{
+    color:#ffffff;
+    transition: color 0.2s ease;
+}
+
+.x-icon:hover {
+  color: #000000; 
+}
+
+.yt-icon{
+    color:#ffffff;
+    transition: color 0.2s ease;
+}
+
+.yt-icon:hover {
+  color: #ff0000; 
+}
+
+.sb_footer-socialmedia p {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
 @media screen and (max-width: 850px) {
     .sb_footer-heading h1{
         font-size: 44px;
         line-height: 50px;
     }
+    
 }
 
 @media screen and (max-width: 550px) {
@@ -161,5 +231,11 @@ input[type="button"]{
     .sb_footer-heading h1{
         font-size: 27px;
         line-height: 38px;
+    }
+
+    
+
+    .sb_footer-socialmedia{
+        margin-top: 1rem;   
     }
 }
