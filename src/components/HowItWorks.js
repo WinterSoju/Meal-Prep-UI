@@ -24,7 +24,7 @@ export default function HowItWorks() {
         px: 2,
         mx: 'auto',
         backgroundColor: '#f6faef',
-       
+        pb: 8,
     }}>
 
     <Typography variant="h4" align="center" sx={{ py: 2, fontSize: '24px', fontWeight: 300, fontFamily: "'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif", backgroundColor: '#f6faef', color: '#333333' }}>

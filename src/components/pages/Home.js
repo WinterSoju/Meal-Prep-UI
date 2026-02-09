@@ -14,9 +14,10 @@ function Home() {
       <div className='homepage'> 
         <HeroSection />
         <WhyUs />
-        <HowItWorks />
+        
         <Cards />
         <LabTabs />
+        <HowItWorks />
         <Testimonial />
         <Footer />
       </div>

@@ -1,11 +1,7 @@
 .whyUs_cards {
   padding: 2rem 0rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease; 
-  background-size: cover;
-  background-image: url('/public/2.jpg');
-  background: no repeat;
-  background-position: center top;
-  overflow: hidden;
+  background-color: #f6fffa;
 }
 
 .whyUs_cards__container {
@@ -27,27 +23,21 @@
 }
 
 .whyus-card {
-  background: rgba(5, 103, 49, 0.26);
+  
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px); 
+
+ 
   border: 1px solid rgba(255, 255, 255, 0.34);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.whyus-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
-}
 
 .whyus-card__link {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 1rem;
   text-decoration: none;
-  
 }
 
 
@@ -57,7 +47,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 40px;
+  font-size: 65px;
   margin-bottom: 1.25rem;
 }
 
@@ -66,15 +56,24 @@
   font-family: 'Inter', system-ui, sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #ffffffe7;
+  color: #030303e7;
   margin: 0 0 0.5rem;
+  text-align: center;
 }
 
 .whyus-card__description {
   font-family: 'Inter', system-ui, sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  color: #ffffff;
+  color: #000000;
   margin: 0;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .whyUs_cards {
+    min-height: 60vh;
+    background-position: center center;
+  }
 }
 

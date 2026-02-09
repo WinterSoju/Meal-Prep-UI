@@ -7,6 +7,7 @@ import { Button } from './Button'
 function NavBar() {
     const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
+ 
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -28,7 +29,7 @@ function NavBar() {
 
   return (
    <>
-    <nav className="navbar">
+    <nav className={`navbar ${click ? 'open' : ''}`}>
         <div className="navbar-container">
             <Link to="/" className="navbar-logo">
                 LeanLab <i className="fa fa-flask"></i>
@@ -72,11 +73,11 @@ function NavBar() {
                     </Link>
                 </li> 
             </ul>
-            {button && <Button buttonStyle='btn--outline'>
-                <i className="fa fa-search" aria-hidden="true"></i>
+            {button && <Button buttonStyle='btn--outlin'>
+                <i className="fas fa-search" aria-hidden="true"></i>
                 </Button>}
-            {button && <Button buttonStyle='btn--outline'>
-                <i className="fa fa-shopping-cart" aria-hidden="true"></i>
+            {button && <Button buttonStyle='btn--outlin'>
+                <i className="fas fa-shopping-cart" aria-hidden="true"></i>
                 </Button>}    
               
         </div>

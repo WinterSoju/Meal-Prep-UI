@@ -11,12 +11,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 93vh;
     width: 100%;
-    object-fit: contain; 
-    background-size: cover;      /* scale & crop */
-    background-position: center;  /* keep main subject centered */
-    background-repeat: no-repeat;  
+
+    
+    background-image: url('/public/hero2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+    
 }
 
 .hero-container h1{
@@ -90,7 +94,7 @@
 @media screen and (max-width: 768px) {
     .hero-container h1{
         font-size: 40px;
-        margin-top:-90%;
+        margin-top:-100%;
         justify-content: flex-start;
     }
     
@@ -106,4 +110,9 @@
     .btns, .btns2{
         font-size: 10px;
     }
+
+    .hero {
+    min-height: 60vh;
+    padding: 3rem 1.5rem;
+  }
 }

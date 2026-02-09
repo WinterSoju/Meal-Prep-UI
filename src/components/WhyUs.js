@@ -10,19 +10,19 @@
             <ul className='whyUs_cards__items' img src="/2.jpg">
                 <WhyUsItem
                     icon="🥗"
-                    text="Macro Tracked, Fresh Ingredients"
+                    text="Fresh Ingredients"
                     description="We source only the freshest produce to make your meals healthy and tasty."
                     path="/services"
                     />
                     <WhyUsItem
                     icon="⚙️"
-                    text="Flexible Plans to Suit Your Lifestyle"
+                    text="Flexible Plans"
                     description="Pick meals that fit your goals and dietary preferences."
                     path="/services"
                     />
                     <WhyUsItem
                     icon="🚚"
-                    text="Delivered daily, fresh to your door" 
+                    text="Delivered Fresh Daily" 
                     description="Your meals arrive fresh and ready to eat, on your schedule."
                     path="/services"
                 />

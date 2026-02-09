@@ -7,7 +7,6 @@ import heroImage from '../hero2.jpg'
 function HeroSection() {
   return (
     <div className="hero-container">
-        <img src={heroImage} alt="Hero-Image" className="hero-image" />
         <h1>Your Goals, Your Plate</h1>
         <p>Healthy doesn’t have to be boring. Find meal preps and recipes that match your goals—and actually taste good.</p>
         <div className="hero-btns">
