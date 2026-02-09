@@ -3,6 +3,11 @@ import './Testimonial.css';
 import TestimonialItem from './TestimonialItem';
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import jane from '../janedoe.jpeg'
+import aimale1 from '../aimale1.jpg'
+import aifemale1 from '../aifemale1.jpg'
+import micheal from '../michaelbrown.jpg'
+import sarah from '../sarahdavis.jpg'
 
 // Import Swiper styles
 import 'swiper/css';
@@ -49,7 +54,7 @@ return (
         <SwiperSlide>
             <TestimonialItem
                 feedback="The meal plans have transformed my health! The food is delicious and convenient."
-                authorImage="/customers/janedoe.jpeg"  
+                authorImage={jane}  
                 authorName="Jane Doe"
                 name="Jane Doe"
                 role="Fitness Enthusiast"
@@ -59,7 +64,7 @@ return (
         <SwiperSlide>
             <TestimonialItem
                 feedback="I love the variety of meals available. It makes sticking to my diet so much easier!"
-                authorImage="/customers/aimale1.jpg"
+                authorImage={aimale1}
                 authorName="John Smith"
                 name="John Smith"
                 role="Busy Professional"
@@ -69,7 +74,7 @@ return (
         <SwiperSlide>
             <TestimonialItem
                 feedback="Excellent service and tasty food! Highly recommend to anyone looking to eat healthier."
-                authorImage="/customers/aifemale1.jpg"
+                authorImage={aifemale1}
                 authorName="Emily Johnson"
                 name="Emily Johnson"
                 role="Health Coach"
@@ -79,7 +84,7 @@ return (
         <SwiperSlide>
             <TestimonialItem
                 feedback="The customizable plans allowed me to find meals that fit my dietary needs perfectly."
-                authorImage="/customers/michaelbrown.jpg"
+                authorImage={micheal}
                 authorName="Michael Brown"
                 name="Michael Brown"
                 role="Athlete"
@@ -89,7 +94,7 @@ return (
         <SwiperSlide>
             <TestimonialItem
                 feedback="Fast delivery and fresh ingredients every time. This service has made my life so much easier!"
-                authorImage="/customers/sarahdavis.jpg"
+                authorImage={sarah}
                 authorName="Sarah Davis"
                 name="Sarah Davis"
                 role="Mom on the Go"

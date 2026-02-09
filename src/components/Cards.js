@@ -1,6 +1,11 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import bbfood from '../bbfood.jpg'
+import lowcarb from '../lowcarb.jpg'
+import balanced from '../balancedfood.jpg'
+import keto from '../keto.jpg'
+import vegan from '../vegan.jpg'
 
 function Cards() {
   return (
@@ -10,30 +15,30 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='/bbfood.jpg'
+              src={bbfood}
               text='Bodybuilding '
               label='High Protein'
               path='/services'
             />
             <CardItem
-              src='/lowcarb.jpg'
-              text='Weight Loss '
+              src={lowcarb}
+              text='Weight Loss'
               path='/services'
             />   
             <CardItem
-              src='/balancedfood.jpg'
+              src={balanced}
               text='Maintenance'
               label='Whole Foods'
               path='/services'
             /> 
             <CardItem
-              src='/keto.jpg'
+              src={keto}
               text='Ketogenic'
               label='High Fat Low Carb'
               path='/services'
             /> 
             <CardItem
-              src='/vegan.jpg'
+              src= {vegan}
               text='Vegan'
               label='Plant-Based'
               path='/services'

@@ -2,7 +2,7 @@
     import './WhyUs.css';
     import WhyUsItem from './WhyUsItem';    
 
-    function whyUs() {
+    function WhyUs() {
     return (
         <div className='whyUs_cards'>
         <div className='whyUs_cards__container'>
@@ -33,4 +33,4 @@
     );
     }
 
-    export default whyUs;
+    export default WhyUs;

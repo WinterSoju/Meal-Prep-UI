@@ -7,7 +7,7 @@ import Home from './components/pages/Home';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Meal-Prep-UI">
       <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
