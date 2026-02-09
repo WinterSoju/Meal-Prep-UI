@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Meal-Prep-UI/static/css/main.7fe545a5.css",
-    "main.js": "/Meal-Prep-UI/static/js/main.db7d4630.js",
+    "main.css": "/Meal-Prep-UI/static/css/main.a48bdc08.css",
+    "main.js": "/Meal-Prep-UI/static/js/main.ce69dd63.js",
     "static/media/sarahdavis.jpg": "/Meal-Prep-UI/static/media/sarahdavis.e47bc36ad049f77c9075.jpg",
     "static/media/stroganoff.jpg": "/Meal-Prep-UI/static/media/stroganoff.22ea9621f511d2ec2f88.jpg",
     "static/media/lowcarb.jpg": "/Meal-Prep-UI/static/media/lowcarb.a37877ac9a1274a084ec.jpg",
@@ -17,11 +17,11 @@
     "static/media/aifemale1.jpg": "/Meal-Prep-UI/static/media/aifemale1.3320750e37c28748d2f9.jpg",
     "static/media/aimale1.jpg": "/Meal-Prep-UI/static/media/aimale1.3f23753adb02f4e401f4.jpg",
     "index.html": "/Meal-Prep-UI/index.html",
-    "main.7fe545a5.css.map": "/Meal-Prep-UI/static/css/main.7fe545a5.css.map",
-    "main.db7d4630.js.map": "/Meal-Prep-UI/static/js/main.db7d4630.js.map"
+    "main.a48bdc08.css.map": "/Meal-Prep-UI/static/css/main.a48bdc08.css.map",
+    "main.ce69dd63.js.map": "/Meal-Prep-UI/static/js/main.ce69dd63.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fe545a5.css",
-    "static/js/main.db7d4630.js"
+    "static/css/main.a48bdc08.css",
+    "static/js/main.ce69dd63.js"
   ]
 }
