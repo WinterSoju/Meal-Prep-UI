@@ -8,7 +8,8 @@ function HeroSection() {
   return (
     <div className="hero-container">
         <div className="hero-content">
-            <h1>Your Goals, Your Plate</h1>
+            <span className='h1-1st'>Your Goals, </span>
+            <span className='h1-2nd'>Your Plate</span>
             <p>Healthy doesn’t have to be boring. Find meal preps and recipes that match your goals—and actually taste good.</p>
             <div className="hero-btns">
                 <button 
