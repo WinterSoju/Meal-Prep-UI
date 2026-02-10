@@ -29,7 +29,7 @@ return (
         autoplay={{ delay: 2000, disableOnInteraction: false }}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log('slide change')}
-       
+        
         breakpoints={{
             1024: {  
                 slidesPerView: 3,  
