@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import StarRating from './StarRating';
 
 function MenuCardItem(props) {
   return (
@@ -12,7 +13,8 @@ function MenuCardItem(props) {
       <div className='menu-card__info'>
         <h5 className='menu-card__text'>{props.text}</h5>
         <p className='menu-card__description'>{props.description}</p>
-        <button className='menu-card__button' onClick={props.handleOrder}>ORDER NOW ↗ </button>
+        <StarRating rating={5} /> 
+        <button className='menu-card__button' onClick={props.handleOrder}>ADD TO PLAN ↗ </button>
       </div>
     </li>
   );

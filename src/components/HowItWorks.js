@@ -27,7 +27,13 @@ export default function HowItWorks() {
         pb: 8,
     }}>
 
-    <Typography variant="h4" align="center" sx={{ py: 2, fontSize: '30px', fontWeight: 1000, fontFamily: "'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif", backgroundColor: '#f1fdd783', color: '#2f3b2f' }}>
+    <Typography variant="h4" align="center" sx={{ 
+      py: 2, 
+      fontSize: '30px', 
+      fontWeight: 1000, 
+      fontFamily: "'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif", 
+      backgroundColor: '#f1fdd783', 
+      color: '#2f3b2f' }}>
       HOW LEANLAB WORKS
     </Typography>
         

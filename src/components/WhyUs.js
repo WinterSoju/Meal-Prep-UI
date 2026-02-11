@@ -9,20 +9,20 @@
             <div className='whyUs_cards__wrapper'>
             <ul className='whyUs_cards__items' img src="/2.jpg">
                 <WhyUsItem
-                    icon="🥗"
-                    text="Fresh Ingredients"
+                    icon="♨"
+                    text="FRESH INGREDIENTS"
                     description="We source only the freshest produce to make your meals healthy and tasty."
                     path="/services"
                     />
                     <WhyUsItem
-                    icon="⚙️"
-                    text="Flexible Plans"
+                    icon="🌣"
+                    text="FLEXIBLE PLANS"
                     description="Pick meals that fit your goals and dietary preferences."
                     path="/services"
                     />
                     <WhyUsItem
-                    icon="🚚"
-                    text="Delivered Fresh Daily" 
+                    icon="⛟"
+                    text="DELIVERED FRESH DAILY" 
                     description="Your meals arrive fresh and ready to eat, on your schedule."
                     path="/services"
                 />

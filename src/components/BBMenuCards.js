@@ -14,23 +14,23 @@ function BBMenuCards() {
             <MenuCardItem
               src={stroganoff}
               text='CHICKEN STROGANOFF'
-              description='Lean chicken breast in a creamy mushroom sauce, packed with protein to support muscle recovery and growth. A satisfying, meal-prep–friendly classic that fuels your training without weighing you down.'
+              description='Lean chicken in a creamy mushroom sauce, high in protein to support recovery without weighing you down.'
               path='/services'
-              label="400Kcal  · 42g Protein · 25g Carbs · 10g Fat"
+              label="🔥 400 Kcal 💪 42g Protein 🍚 25g Carbs 🥑 10g Fat"
             />
             <MenuCardItem
               src= {salmon}
               text='CREAMY GARLIC SALMON'
-              description='Flaky salmon fillet coated in a rich garlic cream sauce, loaded with quality protein and healthy fats to support muscle recovery. A satisfying, meal-prep–friendly option that keeps you fueled and full.'
+              description='Flaky salmon in a rich garlic cream sauce, packed with protein and healthy fats to keep you full and fueled.'
               path='/services'
-              label="580Kcal  · 40g Protein · 6g Carbs · 48g Fat"
+              label="🔥 580 Kcal 💪 40g Protein 🍚 6g Carbs 🥑 48g Fat"
             />
             <MenuCardItem
               src={beefpasta}
               text= 'GROUND BEEF & PASTA'
-              description='Hearty ground beef tossed with pasta in a rich, savoury sauce, delivering quality protein to support muscle growth and recovery. A filling, meal-prep–friendly classic built to fuel your training.'
+              description='Hearty ground beef tossed with pasta in a savory sauce, delivering balanced energy for training and recovery.'
               path='/services'
-              label="500Kcal  · 35g Protein · 30g Carbs · 20g Fat"
+              label="🔥 500 Kcal 💪 35g Protein 🍚 30g Carbs 🥑 20g Fat"
             ></MenuCardItem>
           </ul>
         </div>
