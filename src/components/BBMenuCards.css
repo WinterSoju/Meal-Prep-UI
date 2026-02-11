@@ -1,6 +1,6 @@
 .menu-cards {
   padding: 1rem;
-  background: #f6faef;
+  background: #f1fdd783;
 }
 
 .menu-cards h1 {
@@ -58,7 +58,7 @@
 
 .menu-card__pic-wrap::after {
   content: attr(data-category);
-  position: absolute;
+  position: absolute; 
   bottom: 0;
   padding: 6px 8px;
   width: 100%;

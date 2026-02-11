@@ -15,13 +15,14 @@ export default function LabTabs() {
   };
 
   return (
-    <Box sx={{ width: '100%', typography: 'body1', py: 0, bgcolor: '#f6faef' }}>
-      <Typography variant="h4" align="center" bgcolor= '#f6faef' sx={{ 
-        mb: 4,
-        fontWeight: '300',
+    <Box sx={{ width: '100%', typography: 'body1', py: 0, bgcolor: '#f1fdd783' }}>
+     <Typography variant="h4" align="center" sx={{ 
+        bgcolor: '#f1fdd7b5',
+        pb: 4,
+        fontWeight: '1000',
         fontFamily: 'Inter, sans-serif',
         fontSize: '30px',
-        color: '#8fA27A',
+        color: '#2f3b2f',
         }}>
         MEALS BY GOAL
       </Typography>
@@ -31,6 +32,7 @@ export default function LabTabs() {
             display: 'flex', 
             justifyContent: 'center',
             flexWrap: 'nowrap',
+            bgcolor: '#f1fdd783',
             }}>
           <TabList 
             onChange={handleChange}

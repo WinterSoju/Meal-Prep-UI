@@ -14,7 +14,7 @@
     height: 100vh;
     width: 100%;
 
-    background-image: url('/public/hero5.jpg');
+    background-image: url('/public/foodBg.png');
     background-size: auto 120%;
     background-repeat: no-repeat;
     background-position: 90% 50%;
@@ -29,11 +29,11 @@
     padding: 4rem 3rem;
     margin-left: 0;
     border-radius: 16px;    
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(246, 250, 240, 0.45);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 12px 32px rgba(47, 59, 47, 0.12);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
     border-top: 5px solid #dce7dc; 
     border-bottom: 5px solid #dce7dc;
     border-left: 5px solid #dce7dc;
@@ -53,11 +53,13 @@
 }
 
 .h1-1st{
-    color: #3a7d6c;
+    color: #2f3b2f;
+    font-weight: 700;
 }
 
 .h1-2nd{
-    color: #C0B87A;
+    color: #9a9f3f ;
+    font-weight: 500;
 }
 
 .hero-container p{
@@ -127,23 +129,29 @@
         margin-top: 150px;
         align-items: flex-start;
     }
+
+   
 }
 
 @media screen and (max-width: 768px) {
 
     .hero-container{
         align-items: center;
-        background-position: 88% 130%;
+        background-position: 87% 130%;
         background-size: auto 70%;
-        height: 93vh
+        height: 100vh
     }
 
     .hero-content{
         align-items: center;
-        padding: 1rem 1rem;
+        padding: 2rem 4rem;
+        padding-top: 15rem;
         margin: 0;
-        margin-bottom: 20rem;
+        margin-bottom: 35rem;
         border: none;
+        background-color: #d0e0b5;
+        border-radius: 0;
+        box-shadow: none;
     }
 
     .h1-1st, .h1-2nd{

@@ -10,11 +10,9 @@ import Footer from '../Footer';
 
 function Home() {
   return (
-    
       <div className='homepage'> 
         <HeroSection />
         <WhyUs />
-        
         <Cards />
         <LabTabs />
         <HowItWorks />
