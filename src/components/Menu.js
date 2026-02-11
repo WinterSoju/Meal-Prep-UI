@@ -50,29 +50,35 @@ export default function LabTabs() {
                 
               },
               '& .MuiTab-root': {
-                color: '#8fA27A',
+                color: '#f3b2f',
                 fontSize: { xs: '24px', sm: '25px',},
                 fontFamily: 'Inter, sans-serif',
-                fontWeight: '200',
+                fontWeight: '500',
                 textTransform: 'none',
                 bgcolor: 'transparent',
                 whiteSpace: 'nowrap',
                 minWidth: 'auto',
+                backgroundColor: '#ffffff',
                 px: 3,
+                borderRadius: '20px',
+                
               },
               '& .MuiTab-root.Mui-selected': {
-                color: '#8FA27A',
-                border: '2px solid #8FA27A',
+                color: '#ffffff',
+                backgroundColor: '#2f3b2f',
               },
-              '& .MuiTabs-indicator': {
+              '& .MuiTabs-flexContainer': {
+                gap: '8px',
+               },
+                  '& .MuiTabs-indicator': {
                 display: 'none',
-              }
+              },
             }}>
-            <Tab label="💪Bodybuilding" value="1" />
-            <Tab label="📉 Weight Loss" value="2" />
-            <Tab label="⚖️ Maintenance" value="3" />
-            <Tab label="🥑 Keto" value="4" />
-            <Tab label="🥦 Vegan" value="5" />
+            <Tab label="Bodybuilding" value="1" />
+            <Tab label="Weight Loss" value="2" />
+            <Tab label="Maintenance" value="3" />
+            <Tab label="Keto" value="4" />
+            <Tab label="Vegan" value="5" />
           </TabList>
         </Box>
         <TabPanel value="1" sx={{padding: 0}}><BBMenuCards /></TabPanel>

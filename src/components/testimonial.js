@@ -45,7 +45,7 @@ return (
         },
   }}
         style={{ 
-                    backgroundColor: "#dce2d1",
+                    backgroundColor: "#f1fdd7b5",
                     fontSize: "20px",
                     fontFamily: "'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif", 
                     color: "#ffffff"
