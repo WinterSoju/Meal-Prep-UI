@@ -32,7 +32,7 @@ export default function LabTabs() {
             display: 'flex', 
             justifyContent: 'center',
             flexWrap: 'nowrap',
-            bgcolor: '#f1fdd783',
+            bgcolor: '#f1fdd783',   
             }}>
           <TabList 
             onChange={handleChange}
@@ -41,34 +41,43 @@ export default function LabTabs() {
             scrollButtons="auto"
             allowScrollButtonsMobile
             sx={{ 
-              '& .MuiTabs-flexContainer': {
-             
-               
-              },
+               border: '1.5px solid #2f3b2f',
+              
+               borderRadius: '5px',
               '& .MuiTabs-root': {
                 justifyContent: {xs: 'flex-start', sm: 'center'},
-                
+              },
+              '& .MuiTabs-scrollButtons, & .MuiTabScrollButton-root': {
+                bgcolor: '#ffffff',
+                borderLeft: '1.5px solid #2f3b2f',
+                borderRight: '1px solid #2f3b2f',
+              '& svg': { color: '#2f3b2f' },
+              },
+              '& .MuiTabs-scrollButtons.Mui-disabled': {
+                opacity: 0.4,
               },
               '& .MuiTab-root': {
-                color: '#f3b2f',
+                color: '#2f3b2f',
                 fontSize: { xs: '24px', sm: '25px',},
                 fontFamily: 'Inter, sans-serif',
-                fontWeight: '500',
+                fontWeight: '200',
                 textTransform: 'none',
                 bgcolor: 'transparent',
                 whiteSpace: 'nowrap',
                 minWidth: 'auto',
                 backgroundColor: '#ffffff',
                 px: 3,
-                borderRadius: '20px',
-                
               },
               '& .MuiTab-root.Mui-selected': {
                 color: '#ffffff',
                 backgroundColor: '#2f3b2f',
+                fontWeight: '700',
+                content: '""'
               },
               '& .MuiTabs-flexContainer': {
-                gap: '8px',
+                   gap: '1px',
+                   backgroundColor: '#2f3b2f',
+                  
                },
                   '& .MuiTabs-indicator': {
                 display: 'none',
